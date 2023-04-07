@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:tequevia/provider.dart';
+import 'package:tequevia/controller/provider.dart';
 
-import 'Homepag.dart';
+import 'view/Homepag.dart';
 
 void main() {
   runApp(const MyApp());

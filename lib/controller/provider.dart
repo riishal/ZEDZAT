@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
-import 'modelpage.dart';
+import '../model/modelpage.dart';
 
 class DataProvider with ChangeNotifier {
   // ignore: non_constant_identifier_names

@@ -1,7 +1,7 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:tequevia/provider.dart';
+import 'package:tequevia/controller/provider.dart';
 
 class Homepage extends StatefulWidget {
   const Homepage({super.key});
