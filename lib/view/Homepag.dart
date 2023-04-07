@@ -155,23 +155,24 @@ class _HomepageState extends State<Homepage> {
                     physics: const NeverScrollableScrollPhysics(),
                     gridDelegate:
                         const SliverGridDelegateWithMaxCrossAxisExtent(
-                            maxCrossAxisExtent: 150,
-                            childAspectRatio: 2 / 2,
-                            crossAxisSpacing: 10,
-                            mainAxisSpacing: 20),
+                            maxCrossAxisExtent: 100,
+                            childAspectRatio: 1.5 / 2,
+                            crossAxisSpacing: 3,
+                            mainAxisSpacing: 15),
                     itemCount: getdata.Data.length,
                     itemBuilder: (context, index) {
                       return Column(
                         children: [
                           CircleAvatar(
-                              backgroundColor: Colors.white,
+                              backgroundColor:
+                                  Color.fromARGB(255, 230, 228, 228),
                               radius: 40,
                               backgroundImage: NetworkImage(
                                   getdata.Data[index].categoryImage)),
                           Text(
                             getdata.Data[index].categoryName,
                             style: const TextStyle(
-                                fontSize: 15, fontWeight: FontWeight.bold),
+                                fontSize: 12, fontWeight: FontWeight.bold),
                           ),
                         ],
                       );
